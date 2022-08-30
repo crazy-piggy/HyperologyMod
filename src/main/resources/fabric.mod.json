@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "hyperology",
+  "version": "1.0",
+
+  "name": "Hyperology",
+  "description": "The Minecraft mod for Hyperology (\"超理\").",
+  "authors": [
+    "crazy_piggy_"
+  ],
+  "contact": {
+    "homepage": "https://github.com/crazy-piggy",
+    "sources": "https://github.com/crazy-piggy/HyperologyMod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/hyperology/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.hyperology.Main"
+    ]
+  },
+  "mixins": [
+    "hyperology.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
