@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.hyperology.Main"
+      "io.github.hyperology.Hyperology"
     ]
   },
   "mixins": [

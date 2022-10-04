@@ -57,6 +57,7 @@ jar {
 	from("LICENSE") {
 		rename { "${it}_${project.archivesBaseName}"}
 	}
+	manifest.attributes('Main-Class': 'io.github.hyperology.Main')
 }
 
 // configure the maven publication
